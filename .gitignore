@@ -1,0 +1,31 @@
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Local credentials and private keys
+.aws/
+*.pem
+*.key
+credentials*.json
+*credentials*.json
+
+# Local/editor and generated report files
+.DS_Store
+.idea/
+.vscode/
+osint_report_*.pdf
+osint_report_*.json
+osint_report_*.md
